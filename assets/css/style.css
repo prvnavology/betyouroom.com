@@ -492,7 +492,7 @@ color: #454545;
 }
 /* Pages Cards Section CSS Start */
 section.pages-cards-section {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .pages-cards-wrapper {
   display: flex;
@@ -501,15 +501,13 @@ section.pages-cards-section {
 }
 .pages-cards {
   width: 49%;
-  border: 1px solid #454545;
   border-radius: 5px;
   margin-bottom: 20px;
   overflow: hidden;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
-.pages-cards:last-child {
-  padding: 50px 20px;
-  border-color: transparent;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+.pages-cards:last-child{
+  margin-bottom: 0;
 }
 .pages-cards-image {
   max-height: 240px;
@@ -524,6 +522,7 @@ display: block;
 }
 .pages-cards-content {
   padding: 0 15px;
+  text-align: center;
 }
 .pages-cards-content h3 {
   font-size: 22px;
@@ -578,8 +577,19 @@ transform: scale(1.05);
 .pages-link-btn:hover {
   transform: scale(1.05);
 }
+.after-cards-text-section {
+  padding-bottom: 40px;
+}
+.after-cards-text-wrapper p {
+   margin: 0 auto 10px auto;
+}
+.after-cards-text-wrapper p:last-child{
+  margin-bottom: 0;
+}
 
 /* Pages Cards Section CSS End */
+
+
 
 
 /* Pages CSS End */
