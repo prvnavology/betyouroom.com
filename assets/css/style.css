@@ -584,7 +584,6 @@ section.pages-cards-section {
   overflow: hidden;
 }
 
-
 .pages-cards:hover .pages-cards-image img {
   transform: scale(1.2);
 }
