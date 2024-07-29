@@ -76,7 +76,7 @@ img {
   width: 100%;
   margin: 0 auto;
   z-index: 999;
-  background-color: #f4ebe4;
+  background-color: #fcebdd;
 }
 
 .site-header .container {
@@ -209,7 +209,7 @@ img {
 /* Dropdown CSS Start*/
 
 .main-navbar .dropdown {
-  background-color: #f4ebe4;
+  background-color: #fcebdd;
   display: flex;
   flex-direction: column;
   position: absolute;
