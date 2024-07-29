@@ -1,0 +1,178 @@
+@media screen and (max-width:991px) {
+    .home-page-content-image {
+        width: 100%;
+    }
+
+    .home-page-content-text {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .home-page-content-text p {
+        font-size: 15px;
+    }
+
+
+    /* Cookies CSS Start */
+    #cookie-bar button {
+        float: left;
+        padding: 7px 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #cookie-bar p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    #contentcookie {
+        padding: 20px 10px;
+    width: 100%;
+    }
+
+    /* Cookies CSS End */
+}
+
+
+
+
+@media screen and (max-width:767px) {
+    .main-navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        /* padding: 50px; */
+        background-color: #ddb67b;
+        transform: translateY(100%);
+        transition: all 0.2s linear;
+        z-index: 50;
+        justify-content: flex-start;
+        color: #fff;
+    }
+
+    .main-navbar ul {
+        flex-direction: column;
+        z-index: 50;
+        width: 100%;
+        gap: 0;
+        justify-content: flex-start;
+        padding: 70px 10px;
+    }
+
+    .menuToggle .main-navbar {
+        transform: translateY(0);
+    }
+
+    .logo img {
+        width: 100%;
+    }
+
+    .main-navbar ul li a {
+        line-height: 20px;
+    }
+
+
+    .main-navbar .dropdown-arrow {
+        display: none;
+    }
+
+    .close-icon {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: block;
+        color: #163a68;
+        text-align: end;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .desktop-menu .social-icons {
+        display: none;
+    }
+
+    .desktop-hidden-menu {
+        display: block;
+    }
+    .mobile-menu-hide{
+        display: none;    }
+
+    .desktop-menu {
+        justify-content: space-between;
+        z-index: 100;
+        width: 100%;
+    }
+
+    .desktop-menu-option-hide {
+        display: block;
+    }
+
+    .home-page-content-text p {
+        font-size: 14px;
+    }
+
+
+
+
+
+
+    /* Cookies CSS Start */
+    #cookie-bar button {
+        font-size: 13px;
+    }
+
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
+}
+
+@media screen and (max-width:575px) {
+
+    .home-page-content-text p {
+        font-size: 13px;
+    }
+
+    .home-page-cards {
+        width: 100%;
+    }
+    .pages-cards {
+        width: 100%;
+           }
+    /* Cookies CSS Start */
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
+
+}
+
+@media screen and (max-width:480px) {
+    .banner-image {
+        height: 370px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .home-page-content-text p {
+        font-size: 12px;
+    }
+
+    .footer-items {
+        width: 100%;
+        margin: 25px auto;
+        text-align: center;
+    }
+
+
+}
