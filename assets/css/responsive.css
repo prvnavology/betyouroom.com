@@ -200,6 +200,15 @@
     .desktop-menu-option-hide {
         display: block;
     }
+    .logo img {
+        width: 100%;
+        max-width: 180px;
+    }
+    .logo-bottom img {
+        width: 100%;
+        max-width: 170px;
+    }
+
 
     .banner-image {
         height: 370px;
@@ -343,9 +352,14 @@
         height: 300px;
         width: 100%;
     }
+    .logo-bottom img {
+        width: 100%;
+        max-width: 180px;
+    }
 
     .logo img {
-        width: 35%;
+        width: 100%;
+        max-width: 170px;
     }
 
     .menu-icon {
@@ -486,7 +500,8 @@
     }
 
     .logo img {
-        width: 45%;
+        width: 100%;
+        max-width: 160px;
     }
 
     .home-page-content-text p {

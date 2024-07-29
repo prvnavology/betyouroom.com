@@ -79,20 +79,14 @@ img {
   background-color: #fcebdd;
 }
 
-.site-header .container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 10px;
-}
 .logo img {
-  width: 80%;
+  width: 100%;
   height: 100%;
   text-align: center;
-  max-width: 700px;
+  max-width: 230px;
   vertical-align: middle;
   padding: 5px 0;
 }
-
 .logo a {
   display: inline-block;
   height: 100%;
@@ -455,6 +449,7 @@ section.home-page-cards-section {
   margin: 0px auto 15px auto;
   font-size: 15px;
   border:1px solid transparent;
+  transition: 0.4s all ease-in-out;
 }
 .cards-btn:hover{
   border-color: #163a68;
@@ -483,7 +478,8 @@ section.home-page-cards-section {
 }
 
 .logo-bottom img {
-  width: 65%;
+  width: 100%;
+  max-width: 230px;
 }
 .footer-items{
  width: 33.33%;
