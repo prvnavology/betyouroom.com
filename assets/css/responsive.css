@@ -12,6 +12,11 @@
         font-size: 15px;
     }
 
+    .footer .footer-links ul li a {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
     .copyright p {
         font-size: 15px;
     }
@@ -23,6 +28,7 @@
 
     .pages-intro-wrapper p {
         font-size: 15px;
+        margin-bottom: 0;
     }
 
     .pages-cards:last-child {
@@ -32,6 +38,27 @@
     .after-cards-text-wrapper p {
         font-size: 15px;
     }
+
+    /* Contact Us Page CSS Start */
+    .contact-us-group p {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    /* Contact Us Page CSS End */
+
+  
+    /* Privacy policy Page CSS Start */
+    .privacy-policy-group h3 {
+        font-size: 21px;
+      }
+    .privacy-policy-group p {
+        font-size: 15px;
+    }
+
+   
+
+    /* Privacy policy Page CSS End */
 
     /* Pages CSS End */
 
@@ -87,7 +114,14 @@
 
     .main-navbar ul li a:hover {
         color: #163a68;
+        background-color: #fcebdd;
     }
+
+    .main-navbar ul li a.active {
+        color: #163a68;
+        background-color: #fcebdd;
+    }
+
 
     .menuToggle .main-navbar {
         transform: translateY(0);
@@ -189,6 +223,10 @@
         width: 100%;
     }
 
+    .odd-cards-page .pages-cards:last-child {
+        width: 100%;
+    }
+
     .pages-cards-image {
         height: 240px;
     }
@@ -208,6 +246,31 @@
     .after-cards-text-wrapper p {
         font-size: 14px;
     }
+
+    /* Contact Us Page CSS Start */
+    .contact-us-content {
+        padding: 0px 0 40px 0;
+    }
+
+    .contact-us-group h3 {
+        font-size: 20px;
+    }
+
+    .contact-us-group p {
+        font-size: 14px;
+    }
+
+    /* Contact Us Page CSS End */
+
+        /* Privacy policy Page CSS Start */
+        .privacy-policy-group h3 {
+            font-size: 20px;
+          }
+        .privacy-policy-group p {
+            font-size: 14px;
+        }
+    
+        /* Privacy policy Page CSS End */
 
     /* Pages CSS End */
 
@@ -255,6 +318,9 @@
 
 
 
+
+
+
     .footer-items {
         width: 50%;
         margin-bottom: 30px;
@@ -265,7 +331,7 @@
     }
 
     .footer .footer-links ul li a {
-        font-size: 14px;
+        font-size: 15px;
         font-weight: 500;
     }
 
@@ -307,6 +373,27 @@
     .after-cards-text-wrapper p {
         font-size: 13px;
     }
+
+    /* Contact Us Page CSS Start */
+    .contact-us-group h3 {
+        font-size: 18px;
+    }
+
+    .contact-us-group p {
+        font-size: 13px;
+    }
+
+    /* Contact Us Page CSS End */
+
+    /* Privacy policy Page CSS Start */
+    .privacy-policy-group h3 {
+        font-size: 19px;
+      }
+    .privacy-policy-group p {
+        font-size: 13px;
+    }
+
+    /* Privacy policy Page CSS End */
 
     /* Pages CSS End */
 
@@ -396,6 +483,27 @@
     .after-cards-text-wrapper p {
         font-size: 12px;
     }
+
+    /* Contact Us Page CSS Start */
+    .contact-us-group h3 {
+        font-size: 17px;
+    }
+
+    .contact-us-group p {
+        font-size: 12px;
+    }
+
+    /* Contact Us Page CSS End */
+
+    /* Privacy policy Page CSS Start */
+    .privacy-policy-group h3 {
+        font-size: 18px;
+      }
+    .privacy-policy-group p {
+        font-size: 12px;
+    }
+
+    /* Privacy policy Page CSS End */
 
     /* Pages CSS End */
 
