@@ -448,8 +448,7 @@ section.home-page-cards-section {
   background: #163a68;
   color: #fff;
   text-align: center;
-  border-radius: 5px;
-  overflow: hidden;
+   overflow: hidden;
   margin: 0px auto 15px auto;
   font-size: 15px;
   border:1px solid transparent;
@@ -638,7 +637,7 @@ section.pages-cards-section {
   border: none;
   outline: none;
   padding: 10px 5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   transition: 0.3s all ease-in-out;
   cursor: pointer;
   min-width: 115px;
@@ -661,7 +660,7 @@ section.pages-cards-section {
   background-color: #163a68;
   outline: none;
   padding: 10px 5px;
-  border-radius: 5px;
+  /* border-radius: 5px; */
   font-size: 17px;
   transition: 0.3s all ease-in-out;
   min-width: 115px;

@@ -26,6 +26,7 @@
     .pages-intro {
         padding: 40px 10px;
     }
+
     .home-page-cards-info p {
         font-size: 15px;
         font-weight: 500;
@@ -67,12 +68,16 @@
     .terms-conditions-group h3 {
         font-size: 21px;
     }
+
     .terms-conditions-group h4 {
         font-size: 16px;
-}
-    .terms-conditions-group p,.terms-conditions-group ul li {
+    }
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 15px;
     }
+
     /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
@@ -141,15 +146,16 @@
     .menuToggle .main-navbar {
         transform: translateY(0);
     }
-    .logo{
-        width:100%
+
+    .logo {
+        width: 100%
     }
 
-     .logo img {
+    .logo img {
         width: 30%;
-    }  
+    }
 
-       .main-navbar ul li a {
+    .main-navbar ul li a {
         line-height: 20px;
     }
 
@@ -189,7 +195,7 @@
         z-index: 100;
         width: 100%;
     }
-  
+
 
     .desktop-menu-option-hide {
         display: block;
@@ -198,12 +204,14 @@
     .banner-image {
         height: 370px;
     }
+
     .home-page-content {
         padding: 50px 0 35px 0;
     }
+
     section.home-page-cards-section {
         padding: 0px 0 30px 0;
-    } 
+    }
 
     .home-page-cards-info {
         padding: 0px 10px;
@@ -218,13 +226,15 @@
         font-size: 14px;
         font-weight: 300;
     }
+
     .home-page-content-text p {
         font-size: 14px;
-            }
+    }
 
     .footer {
         padding: 30px 0;
     }
+
     .copyright p {
         font-size: 14px;
     }
@@ -237,11 +247,12 @@
     .pages-intro {
         padding: 35px 5px;
     }
-    
+
 
     .pages-intro-wrapper p {
         font-size: 14px;
     }
+
     section.pages-cards-section {
         padding-bottom: 20px;
     }
@@ -265,6 +276,7 @@
         font-weight: 500;
         padding: 9px 5px;
     }
+
     .after-cards-text-wrapper p {
         font-size: 14px;
     }
@@ -299,12 +311,16 @@
     .terms-conditions-group h3 {
         font-size: 20px;
     }
+
     .terms-conditions-group h4 {
         font-size: 15px;
-}
-    .terms-conditions-group p,.terms-conditions-group ul li {
+    }
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 14px;
     }
+
     /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
@@ -327,9 +343,14 @@
         height: 300px;
         width: 100%;
     }
+
     .logo img {
         width: 35%;
-    } 
+    }
+
+    .menu-icon {
+        font-size: 17px;
+    }
 
     .home-page-content-text p {
         font-size: 13px;
@@ -341,9 +362,9 @@
 
     .home-page-cards-info p {
         font-size: 14px;
-           }
+    }
 
-   .pages-cards {
+    .pages-cards {
         width: 100%;
     }
 
@@ -431,12 +452,16 @@
     .terms-conditions-group h3 {
         font-size: 19px;
     }
+
     .terms-conditions-group h4 {
         font-size: 14px;
-}
-    .terms-conditions-group p,.terms-conditions-group ul li {
+    }
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 13px;
     }
+
     /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
@@ -459,12 +484,14 @@
     .banner-text h1 {
         font-size: 30px;
     }
+
     .logo img {
         width: 45%;
-    } 
+    }
+
     .home-page-content-text p {
         font-size: 12px;
-      
+
     }
 
     .home-page-cards-info h2 {
@@ -474,7 +501,7 @@
 
     .home-page-cards-info p {
         font-size: 12px;
-         }
+    }
 
     .cards-btn {
         padding: 7px 13px;
@@ -556,10 +583,13 @@
     .terms-conditions-group h3 {
         font-size: 18px;
     }
+
     .terms-conditions-group h4 {
-            font-size: 13px;
+        font-size: 13px;
     }
-    .terms-conditions-group p,.terms-conditions-group ul li {
+
+    .terms-conditions-group p,
+    .terms-conditions-group ul li {
         font-size: 12px;
     }
 
