@@ -10,6 +10,7 @@
 
     .home-page-content-text p {
         font-size: 15px;
+        font-weight: 500;
     }
 
     .footer .footer-links ul li a {
@@ -25,13 +26,17 @@
     .pages-intro {
         padding: 40px 10px;
     }
+    .home-page-cards-info p {
+        font-size: 15px;
+        font-weight: 500;
+    }
 
     .pages-intro-wrapper p {
         font-size: 15px;
         margin-bottom: 0;
     }
 
-    .pages-cards:last-child {
+    .odd-cards-page .pages-cards:last-child {
         width: 70%;
     }
 
@@ -47,18 +52,28 @@
 
     /* Contact Us Page CSS End */
 
-  
     /* Privacy policy Page CSS Start */
     .privacy-policy-group h3 {
         font-size: 21px;
-      }
+    }
+
     .privacy-policy-group p {
         font-size: 15px;
     }
 
-   
-
     /* Privacy policy Page CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 21px;
+    }
+    .terms-conditions-group h4 {
+        font-size: 16px;
+}
+    .terms-conditions-group p,.terms-conditions-group ul li {
+        font-size: 15px;
+    }
+    /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
 
@@ -196,7 +211,7 @@
 
     .home-page-content-text p {
         font-size: 14px;
-    }
+            }
 
     .footer {
         padding: 30px 0;
@@ -214,13 +229,13 @@
     .pages-intro {
         padding: 35px 5px;
     }
+    
 
     .pages-intro-wrapper p {
         font-size: 14px;
     }
-
-    .pages-cards:last-child {
-        width: 100%;
+    section.pages-cards-section {
+        padding-bottom: 20px;
     }
 
     .odd-cards-page .pages-cards:last-child {
@@ -242,7 +257,6 @@
         font-weight: 500;
         padding: 9px 5px;
     }
-
     .after-cards-text-wrapper p {
         font-size: 14px;
     }
@@ -262,15 +276,28 @@
 
     /* Contact Us Page CSS End */
 
-        /* Privacy policy Page CSS Start */
-        .privacy-policy-group h3 {
-            font-size: 20px;
-          }
-        .privacy-policy-group p {
-            font-size: 14px;
-        }
-    
-        /* Privacy policy Page CSS End */
+    /* Privacy policy Page CSS Start */
+    .privacy-policy-group h3 {
+        font-size: 20px;
+    }
+
+    .privacy-policy-group p {
+        font-size: 14px;
+    }
+
+    /* Privacy policy Page CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 20px;
+    }
+    .terms-conditions-group h4 {
+        font-size: 15px;
+}
+    .terms-conditions-group p,.terms-conditions-group ul li {
+        font-size: 14px;
+    }
+    /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
 
@@ -304,8 +331,7 @@
 
     .home-page-cards-info p {
         font-size: 14px;
-        font-weight: 500;
-    }
+           }
 
 
 
@@ -388,12 +414,25 @@
     /* Privacy policy Page CSS Start */
     .privacy-policy-group h3 {
         font-size: 19px;
-      }
+    }
+
     .privacy-policy-group p {
         font-size: 13px;
     }
 
     /* Privacy policy Page CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 19px;
+    }
+    .terms-conditions-group h4 {
+        font-size: 14px;
+}
+    .terms-conditions-group p,.terms-conditions-group ul li {
+        font-size: 13px;
+    }
+    /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
 
@@ -418,6 +457,7 @@
 
     .home-page-content-text p {
         font-size: 12px;
+      
     }
 
     .home-page-cards-info h2 {
@@ -427,8 +467,7 @@
 
     .home-page-cards-info p {
         font-size: 12px;
-        font-weight: 400;
-    }
+         }
 
     .cards-btn {
         padding: 7px 13px;
@@ -498,12 +537,26 @@
     /* Privacy policy Page CSS Start */
     .privacy-policy-group h3 {
         font-size: 18px;
-      }
+    }
+
     .privacy-policy-group p {
         font-size: 12px;
     }
 
     /* Privacy policy Page CSS End */
+
+    /* Terms Conditions CSS Start */
+    .terms-conditions-group h3 {
+        font-size: 18px;
+    }
+    .terms-conditions-group h4 {
+            font-size: 13px;
+    }
+    .terms-conditions-group p,.terms-conditions-group ul li {
+        font-size: 12px;
+    }
+
+    /* Terms Conditions CSS End*/
 
     /* Pages CSS End */
 
