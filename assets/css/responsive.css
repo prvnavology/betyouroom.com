@@ -194,6 +194,12 @@
     .banner-image {
         height: 370px;
     }
+    .home-page-content {
+        padding: 50px 0 35px 0;
+    }
+    section.home-page-cards-section {
+        padding: 0px 0 25px 0;
+    } 
 
     .home-page-cards-info {
         padding: 0px 10px;

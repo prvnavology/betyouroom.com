@@ -367,8 +367,7 @@ img {
 
 /* Home Page Content Section CSS Start */
 .home-page-content {
-   padding: 40px 0;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+   padding: 70px 0;
 }
 
 .home-page-content-wrapper {
@@ -406,7 +405,7 @@ img {
 
 /* Pages Slider Section CSS Start */
 section.home-page-cards-section {
-  padding: 25px 0 ;
+  padding: 0px 0 50px 0;
 }
 .home-page-cards {
   margin: 20px 10px;
