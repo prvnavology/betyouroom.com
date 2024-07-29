@@ -452,7 +452,7 @@ section.home-page-cards-section {
   overflow: hidden;
   margin: 0px auto 15px auto;
   font-size: 15px;
-  border: 1px solid transparent;
+  border:1px solid transparent;
 }
 .cards-btn:hover{
   border-color: #163a68;
@@ -481,7 +481,7 @@ section.home-page-cards-section {
 }
 
 .logo-bottom img {
-  width: 60%;
+  width: 65%;
 }
 .footer-items{
  width: 33.33%;
@@ -905,3 +905,29 @@ section.pages-cards-section {
 }
 
 /* Cookies CSS End */
+
+.slide {
+  position: relative;
+  overflow: hidden;
+}
+.text {
+  position: relative;
+  transition: 0.5s;
+}
+.slide::before {
+  content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 130%;
+height: 55px;
+background-color: #769fd6;
+transform: translate(-110%, 0) skew(-30deg);
+transition: 0.5s;
+}
+.slide:hover .text {
+  color: #fff;
+}
+.slide:hover::before {
+  transform: translate(-5%, 0) skew(-15deg);
+}
