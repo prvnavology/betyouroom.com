@@ -12,7 +12,6 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background: #f6f6f6;
 }
 
 h1,
@@ -35,8 +34,8 @@ ul {
 
 a {
   text-decoration: none;
-  color: inherit;
-  display: inline-block;
+   display: inline-block;
+  font-family: "Roboto", sans-serif;
 }
 
 button,
@@ -52,9 +51,9 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1170px;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
 /* colors
@@ -76,7 +75,7 @@ img {
   width: 80%;
   height: 100%;
   text-align: center;
-  max-width: 250px;
+  max-width: 400px;
   vertical-align: middle;
   padding: 5px 0;
 }
@@ -132,7 +131,7 @@ img {
   font-size: 1rem;
   padding: 10px;
   display: inline-block;
-  color: #767373;
+  color: #545556;
   line-height: 42px;
   transition: 0.5sec all ease-in;
   font-size: 18px;
@@ -179,7 +178,7 @@ img {
   width: 100%;
   margin: 0 auto;
   z-index: 999;
-  background-color: #EAD5C3;
+  background-color: #fcebdd;
 }
 
 
@@ -404,7 +403,7 @@ img {
 .home-page-content-text p {
   font-size: 15px;
   margin-bottom: 10px;
-  color: #454545;
+  color: #545556;
 }
 
 
@@ -416,18 +415,14 @@ img {
   border-radius: 6px;
   overflow: hidden;
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  height: 100%;
 }
 
 .slick-prev,
 .slick-next {
-  display: none;
+  display: none !important;
 }
 
-.slick-prev,
-.slick-next {
-  position: static;
-
-}
 
 .home-page-cards-image img {
   width: 100%;
@@ -450,7 +445,7 @@ img {
 
 .home-page-cards-info p {
   margin-bottom: 14px;
-  color: #454545;
+  color: #545556;
 }
 
 .cards-btn {
@@ -468,7 +463,7 @@ img {
 
 /* Footer CSS Start */
 .footer {
-  background-color: #EAD5C3;
+  background-color: #fcebdd;
   padding: 40px 0;
 }
 
@@ -485,10 +480,8 @@ img {
 .logo-bottom img {
   width: 60%;
 }
-
-.footer-items {
-  flex: 1;
-  margin: 0 auto;
+.footer-items{
+ width: 33.33%;
 }
 
 .footer-items h3 {
@@ -497,10 +490,11 @@ img {
   color: #163a68;
 }
 
+
 .footer-items ul li a {
   font-size: 17px;
   padding: 2px 0;
-  color: #767373;
+  color: #545556;
 }
 
 .copyright {
@@ -512,7 +506,7 @@ img {
 }
 
 .copyright p {
-  color: #767373;
+  color: #545556;
   text-align: center;
   font-weight: 500;
 }
@@ -565,7 +559,7 @@ img {
 }
 
 .pages-intro-wrapper p {
-  color: #454545;
+  color: #545556;
   margin-bottom: 10px;
 }
 
@@ -585,7 +579,9 @@ section.pages-cards-section {
   border-radius: 5px;
   margin-bottom: 25px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  height: 100%;
 }
+
 
 .pages-cards:hover .pages-cards-image img {
   transform: scale(1.2);
@@ -597,10 +593,9 @@ section.pages-cards-section {
 }
 
 .pages-cards-image {
-  max-height: 250px;
-  overflow: hidden;
-  height: 100%;
+   overflow: hidden;
   width: 100%;
+  height: 270px;
 }
 
 .pages-cards-image img {
@@ -612,7 +607,7 @@ section.pages-cards-section {
 }
 
 .pages-cards-content {
-  padding: 0 15px;
+  padding: 10px 15px;
   text-align: center;
 }
 
@@ -624,7 +619,7 @@ section.pages-cards-section {
 .subpage-exp-content {
   margin-top: 10px;
   display: none;
-  color: #454545;
+  color: #545556;
 }
 
 .subpage-exp-content p {
@@ -647,6 +642,7 @@ section.pages-cards-section {
   text-align: center;
   border: 1px solid #163a68;
   font-size: 17px;
+  font-weight: 500;
 }
 
 .btn-darkred-block:hover {
@@ -658,7 +654,6 @@ section.pages-cards-section {
   margin: 10px;
   color: #fff;
   background-color: #163a68;
-  border: none;
   outline: none;
   padding: 10px 5px;
   border-radius: 5px;
@@ -668,6 +663,7 @@ section.pages-cards-section {
   line-height: normal;
   text-align: center;
   border: 1px solid transparent;
+  font-weight: 400;
 }
 
 .pages-link-btn:hover {
@@ -680,7 +676,7 @@ section.pages-cards-section {
 
 .after-cards-text-wrapper p {
   margin: 0 auto 10px auto;
-  color: #454545;
+  color: #545556;
 }
 
 .after-cards-text-wrapper p:last-child {
@@ -711,7 +707,7 @@ section.pages-cards-section {
 
 .privacy-policy-group p {
   margin-bottom: 10px;
-  color: #454545;
+  color: #545556;
 }
 
 .privacy-policy-group ul li {
@@ -765,7 +761,7 @@ section.pages-cards-section {
 }
 
 .terms-conditions-group ul li {
-  color: #454545;
+  color: #545556;
   list-style: disc;
   margin-left: 17px;
   margin-bottom: 10px;
@@ -809,7 +805,7 @@ section.pages-cards-section {
 }
 
 .contact-us-group ul li {
-  color: #454545;
+  color: #545556;
   list-style: disc;
   margin-left: 17px;
   margin-bottom: 10px;

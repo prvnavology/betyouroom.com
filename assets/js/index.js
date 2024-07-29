@@ -16,8 +16,33 @@ $('.home-page-cards-wrapper').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay: false,
-  autoplaySpeed: 2000,
+  autoplay:false,
+  autoplaySpeed: 1500,
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+       
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 575,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }   
+  ]
 });
 // Slick Slider JS End
 

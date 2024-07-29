@@ -12,6 +12,29 @@
         font-size: 15px;
     }
 
+    .copyright p {
+        font-size: 15px;
+    }
+
+    /* Pages CSS Start */
+    .pages-intro {
+        padding: 40px 10px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 15px;
+    }
+
+    .pages-cards:last-child {
+        width: 70%;
+    }
+
+    .after-cards-text-wrapper p {
+        font-size: 15px;
+    }
+
+    /* Pages CSS End */
+
 
     /* Cookies CSS Start */
     #cookie-bar button {
@@ -29,7 +52,7 @@
 
     #contentcookie {
         padding: 20px 10px;
-    width: 100%;
+        width: 100%;
     }
 
     /* Cookies CSS End */
@@ -45,8 +68,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        /* padding: 50px; */
-        background-color: #ddb67b;
+        background-color: #fcebdd;
         transform: translateY(100%);
         transition: all 0.2s linear;
         z-index: 50;
@@ -60,7 +82,11 @@
         width: 100%;
         gap: 0;
         justify-content: flex-start;
-        padding: 70px 10px;
+        padding: 50px 10px;
+    }
+
+    .main-navbar ul li a:hover {
+        color: #163a68;
     }
 
     .menuToggle .main-navbar {
@@ -87,6 +113,7 @@
         display: block;
         color: #163a68;
         text-align: end;
+        z-index: 51;
     }
 
     .menu-icon {
@@ -100,8 +127,10 @@
     .desktop-hidden-menu {
         display: block;
     }
-    .mobile-menu-hide{
-        display: none;    }
+
+    .mobile-menu-hide {
+        display: none;
+    }
 
     .desktop-menu {
         justify-content: space-between;
@@ -113,13 +142,74 @@
         display: block;
     }
 
+    .banner-image {
+        height: 370px;
+    }
+
+    .home-page-cards-info {
+        padding: 0px 10px;
+    }
+
+    .home-page-cards-info h2 {
+        font-size: 25px;
+    }
+
+    .cards-btn {
+        padding: 9px 15px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
     .home-page-content-text p {
         font-size: 14px;
     }
 
+    .footer {
+        padding: 30px 0;
+    }
 
+    .copyright p {
+        font-size: 14px;
+    }
 
+    /* Pages CSS Start */
+    .banner-image {
+        height: 340px;
+    }
 
+    .pages-intro {
+        padding: 35px 5px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 14px;
+    }
+
+    .pages-cards:last-child {
+        width: 100%;
+    }
+
+    .pages-cards-image {
+        height: 240px;
+    }
+
+    .pages-cards-content h3 {
+        font-size: 20px;
+    }
+
+    .btn-darkred-block,
+    .pages-link-btn {
+        min-width: 100px;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 9px 5px;
+    }
+
+    .after-cards-text-wrapper p {
+        font-size: 14px;
+    }
+
+    /* Pages CSS End */
 
 
     /* Cookies CSS Start */
@@ -135,20 +225,92 @@
 }
 
 @media screen and (max-width:575px) {
+    .banner-image {
+        height: 300px;
+        width: 100%;
+    }
+
 
     .home-page-content-text p {
         font-size: 13px;
     }
 
-    .home-page-cards {
-        width: 100%;
+    .home-page-cards-info h2 {
+        font-size: 25px;
     }
+
+    .home-page-cards-info p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+
+
+
+
     .pages-cards {
         width: 100%;
-           }
+    }
 
 
-           
+
+    .footer-items {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .footer-items h3 {
+        font-size: 22px;
+    }
+
+    .footer .footer-links ul li a {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .copyright p {
+        font-size: 13px;
+    }
+
+    /* Pages CSS Start */
+    .banner-image {
+        height: 280px;
+    }
+
+    .pages-cards-image {
+        height: 250px;
+    }
+
+    .pages-intro {
+        padding: 30px 5px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 13px;
+    }
+
+    .pages-cards-content {
+        padding: 10px 7px;
+    }
+
+    .btn-darkred-block,
+    .pages-link-btn {
+        padding: 9px 0px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+
+
+
+    .after-cards-text-wrapper p {
+        font-size: 13px;
+    }
+
+    /* Pages CSS End */
+
+
     /* Cookies CSS Start */
     #cookie-bar p {
         font-size: 13px;
@@ -160,22 +322,82 @@
 
 @media screen and (max-width:480px) {
     .banner-image {
-        height: 370px;
+        height: 250px;
     }
 
     .banner-text h1 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .home-page-content-text p {
         font-size: 12px;
     }
 
+    .home-page-cards-info h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .home-page-cards-info p {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .cards-btn {
+        padding: 7px 13px;
+        font-size: 13px;
+    }
+
+
     .footer-items {
         width: 100%;
-        margin: 25px auto;
         text-align: center;
+        margin-bottom: 30px;
     }
+
+    .footer-items h3 {
+        font-size: 20px;
+    }
+
+    .footer-items:last-child {
+        margin-bottom: 0;
+    }
+
+    .copyright p {
+        font-size: 12px;
+    }
+
+    /* Pages CSS Start */
+    .banner-image {
+        height: 220px;
+    }
+
+    .pages-cards-image {
+        height: 190px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 12px;
+    }
+
+    .btn-darkred-block,
+    .pages-link-btn {
+        padding: 8px 0px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .pages-cards-content h3 {
+        font-size: 18px;
+    }
+
+
+
+    .after-cards-text-wrapper p {
+        font-size: 12px;
+    }
+
+    /* Pages CSS End */
 
 
 }
