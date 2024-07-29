@@ -16,7 +16,7 @@ $('.home-page-cards-wrapper').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1,
-  autoplay:false,
+  autoplay:true,
   autoplaySpeed: 1500,
   responsive: [
     {
